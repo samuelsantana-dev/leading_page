@@ -1,0 +1,73 @@
+.section{
+    width: 100vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 3em;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form{
+    margin: 2em;
+    display: flex;
+}
+
+/*Input Nome*/
+.nome{
+    width: 80%;
+    padding: .4em;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    border-radius: 10px; 
+}
+/*Div do input nome*/
+.divNome{
+    width: 100%;
+    display: block;
+}
+
+/*Div dos 3 input
+    - email
+    - fone
+    -igreja 
+*/
+.divInput{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Input Gerais:
+    - email
+    - fone
+    -igreja
+-Definiçoes dentro dele
+*/
+.input{
+    width: 80%;
+    padding: .3em;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    border-radius: 10px;
+}
+
+
+/*Input inscreva-se*/
+.inscrevase{
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    padding: .4em; 
+}
+
+/*Criando para tablets e telas grandes logo abaixo com media Query*/
+
+/*Meqdia query vai ser para telas grandes*/
+@media screen and (min-width:700px) {
+    .form{ display: flex; flex-direction: column;  }
+    .h1{margin-left: 3em; display: block; width: 100%; } 
+}

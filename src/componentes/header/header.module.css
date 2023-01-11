@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    width: 100vw;
+    width: 100%;
+}
+
+.div{
+    margin: auto;
+    margin-right: 2em;
+    align-items: center;
+}
+
+.text{
+    font-weight: bolder;
+}
+
+.img{
+    border-radius: 10px;
+    min-width: 20px;
+    max-width: 60px;
+    width: 100%;
+    margin-left: 20px;
+}

@@ -1,0 +1,86 @@
+/*Section está em alteraçoes globais no app.css*/
+
+
+    /*color: #f0f8ff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+   */
+
+
+   .Divtext{
+    padding: 10px;
+    display: block;
+}
+
+.button{
+    background-color: black;
+    border: 1px solid aliceblue;
+    font-weight: bolder;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: .4em;
+    width: 100px;
+    cursor: pointer;
+}
+/*
+.divImg{
+    padding: 1em;
+}
+
+width: 100px;*/
+
+.img{
+    width: 100%;
+    min-width: 180px;
+    max-width: 400px;
+}
+
+/*Comparacao*/
+
+/*
+.section{
+    /* width: 100%;
+   
+    background-color: black;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    background-color: black;
+    border: 1px solid aliceblue;
+    font-weight: bolder;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: .4em;
+    width: 100px;
+    cursor: pointer;
+}
+
+.img{
+    width: 100%;
+    min-width: 180px;
+    max-width: 800px;
+}
+
+.divImg{
+    padding: 40px;
+}
+
+.Divp{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p{
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}*/
+
