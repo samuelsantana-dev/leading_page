@@ -1,20 +1,19 @@
 import React from 'react'
 import Style from './sectionUm.module.css'
-import Img from '../../img/segundaFoto.jpg'
+import Img from '../../img/bg_bispos.svg'
 import Button from '../formulario/button'
 
 function sectionUm(){
     return(
-        <section >
+        <section className={Style.section}>
+                <img src={Img} alt="Primeira imagem" className={Style.img} />
                 <div  className={Style.Divtext} >
-                    <p>
-                        lorem  ispsum dolar sit amet,, sceodsinffee gegegeaigggfh goeçvnrgngroilorem ispsum dolar sit amet, sceodsinffee gegegeaiggn igoeçvnrgngroi
-                    </p>
-                    <br></br>
-                    <input type='submit' value='Increva-se'  className={Style.button} />
+
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</span>
+
+                    <input type='submit' value='Inscreva-se'  className={Style.button} />
+               
                 </div>
-                
-                    <img src={Img} alt="Primeira imagem" className={Style.img} />
         </section>
     )
 }

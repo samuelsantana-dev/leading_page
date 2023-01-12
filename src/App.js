@@ -12,15 +12,15 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <hr></hr>
+        {/* <hr></hr> */}
         <Section_um />
-        <hr></hr>
+        {/* <hr></hr> */}
         <Section_dois />
-        <hr></hr>
+        {/* <hr></hr> */}
         <Formulario />
-        <hr></hr>
+        {/* <hr></hr> */}
         <Sectiontres />
-        <hr></hr>
+        {/* <hr></hr> */}
         <Footer />
     </div>
   );

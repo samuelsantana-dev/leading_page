@@ -7,21 +7,42 @@
     width: 100%;
    */
 
+.section{
+    padding: 2.5rem 2.5rem 0  2.5rem;
+    justify-content: space-evenly;
+}
 
-   .Divtext{
+.Divtext{
     padding: 10px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 40px
 }
 
 .button{
-    background-color: black;
-    border: 1px solid aliceblue;
+    margin-top: 1rem;
+
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
     font-weight: bolder;
-    color: aliceblue;
-    border-radius: 10px;
+    color: #FFFFFF;
     padding: .4em;
-    width: 100px;
     cursor: pointer;
+
+    border-radius: 100px;
+    text-transform: uppercase;
+    width: 177px;
+    font-size: 14px;
+    height: 48px;
+
+    transition: .7s
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    
 }
 /*
 .divImg{

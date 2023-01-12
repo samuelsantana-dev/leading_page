@@ -1,6 +1,8 @@
 import React from 'react'
 import Style from './footer.module.css'
 import Img from '../../img/ultimaFot.jpg'
+import LOGO from '../../img/conf_logo_black.png'
+import arrow from '../../img/arrow_up.svg'
 import { FaFacebook, FaInstagram } from 'react-icons/fa'
 
 /*
@@ -8,54 +10,50 @@ import { FaFacebook, FaInstagram } from 'react-icons/fa'
  */
 
 
-function Footer(){
-    return(
+function Footer() {
+    return (
         <footer className={Style.footer}>
 
-          
+        {/* <div className={Style.container}> */}
 
             <div className={Style.teste}>
 
-           
-            <img src={Img} alt='Imagem footer' className={Style.img} />
-           
 
-                <ul className={Style.ul}>
-                   
-                    <li>
-                    <li>
-                        Endereço:
-                    </li>
-                    Rua:  Xxxx Xxxx xxx
-                    </li>
-            
-                    <li>
-                        <li>CEP: </li>  
-                        Xxx-xxx,
-                        brasilia - Df
-                    </li>
-                    <li>
-                       
-                    </li>  
-                    <li>
-                    <li>Contato: </li>
-                        (XX) x xxxx xxxx
-                        Contato@gmail.com
-                    </li> 
-                </ul>  
+                <img src={LOGO} alt='Imagem footer' className={Style.img} />
+
+                <div>
+                    <span>
+                        Endereço
+
+                        Rua Xxxxx Xxxxxxx, XXX
+                        CEP XXXXX-XXX, Brasília - DF
+                    </span>
+                </div>
+
+                <div>
+                    <span>
+                        Contato
+
+                        (XX) XXXX-XXXX
+                        contato@arenaconference.com
+                    </span>
+                </div>
+
+
             </div>
-          
-            <ul className={Style.ulIcones}>
-               
-               <li>
-               <FaInstagram className={Style.icones} />
-                </li> 
 
-                <li>
-                <FaFacebook className={Style.icones} />
-                </li>
-               
-            </ul>
+            <div className={Style.links}>
+            <FaInstagram className={Style.icones} />
+            <FaFacebook className={Style.icones} />
+
+            <a href={''} className={Style.upbutton}> <img src={arrow} alt='arrow' className={Style.arrow} /> Voltar para cima</a>
+            </div>
+
+
+        {/* </div> */}
+
+
+
 
         </footer>
     )
