@@ -57,51 +57,19 @@ width: 100px;*/
     max-width: 400px;
 }
 
-/*Comparacao*/
 
-/*
-.section{
-    /* width: 100%;
-   
-    background-color: black;
-    height: 20vh;
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/*Telas pequenas*/
+@media screen and (max-width:650px) {
+    .Divtext{
+    font-size: 1.6em;
+    width: 50%;
+    }
+
+    .button{ border-radius: 100px;
+        text-transform: uppercase;
+        width: 60%;
+        font-size: 12px;
+        height: 60%;
+        padding: .8em;
+    }
 }
-
-.button{
-    background-color: black;
-    border: 1px solid aliceblue;
-    font-weight: bolder;
-    color: aliceblue;
-    border-radius: 10px;
-    padding: .4em;
-    width: 100px;
-    cursor: pointer;
-}
-
-.img{
-    width: 100%;
-    min-width: 180px;
-    max-width: 800px;
-}
-
-.divImg{
-    padding: 40px;
-}
-
-.Divp{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.p{
-    color: aliceblue;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-}*/
-

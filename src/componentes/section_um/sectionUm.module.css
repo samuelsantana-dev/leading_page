@@ -56,14 +56,29 @@
     color: black;
     
 }
-/*
-.divImg{
-    padding: 1em;
-}
-
-width: 100px;*/
 
 .img{
     /* width:max-content; */
+}
+
+/*Telas pequenas*/
+@media screen and (max-width:650px) {
+    .Divtext{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+    width: 50%;
+    }
+
+    .button{ border-radius: 100px;
+        text-transform: uppercase;
+        width: 40%;
+        font-size: 12px;
+        height: 40%;
+        padding: .8em;
+        
+    }
 }
 

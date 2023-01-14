@@ -6,8 +6,8 @@ import Button from '../formulario/button'
 function Section_tres(){
     return(
         <section className={Style.section}>
+            
                 <div  className={Style.Divtext} >
-                    
                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</span>
                 
                     <input type='submit' value='Inscreva-se'  className={Style.button} />

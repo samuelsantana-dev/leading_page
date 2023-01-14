@@ -15,13 +15,12 @@ function Footer() {
         <footer className={Style.footer}>
 
         {/* <div className={Style.container}> */}
-
+        
             <div className={Style.contatoImg}>
 
-                 <div>
+                <div className={Style.divImg}>
                     <img src={LOGO} alt='Imagem footer' className={Style.img} />
                 </div>
-
                 <div>
                     <span>
                         Endereço
