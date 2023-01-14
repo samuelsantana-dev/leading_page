@@ -9,7 +9,7 @@ function Section_tres(){
                 <div  className={Style.Divtext} >
                     
                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</span>
-
+                
                     <input type='submit' value='Inscreva-se'  className={Style.button} />
                 </div>
                 

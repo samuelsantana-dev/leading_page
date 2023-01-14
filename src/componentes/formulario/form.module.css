@@ -1,5 +1,4 @@
 .section{
-    width: 100vw;
     width: 100%;
     display: flex;
     align-items: center;
@@ -9,44 +8,34 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.form{
+.Divform{
+    width: 100%;
     margin: 2em;
     display: flex;
+    padding: 3%;
 }
 
 /*Input Nome*/
 .nome{
-    width: 80%;
+    width: 100%;
     padding: .4em;
     font-weight: bold;
     color: black;
     text-align: left;
     border-radius: 10px; 
-}
-/*Div do input nome*/
-.divNome{
     width: 100%;
     display: block;
 }
 
-/*Div dos 3 input
-    - email
-    - fone
-    -igreja 
-*/
+/*As duas div de input*/
 .divInput{
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
-/*Input Gerais:
-    - email
-    - fone
-    -igreja
--Definiçoes dentro dele
-*/
+/*Input*/
 .input{
-    width: 80%;
+    width: 100%;
     padding: .3em;
     color: black;
     font-weight: bold;
@@ -54,20 +43,30 @@
     border-radius: 10px;
 }
 
-
 /*Input inscreva-se*/
-.inscrevase{
+.increverse{
     background-color: black;
     color: aliceblue;
     border: 1px solid aliceblue;
+
+    font-weight: bold;
+    text-align: left;
+
     border-radius: 10px;
-    padding: .4em; 
+    width: 100%;
+    padding: .3em;
 }
 
 /*Criando para tablets e telas grandes logo abaixo com media Query*/
 
-/*Meqdia query vai ser para telas grandes*/
+/*Media query vai ser para telas grandes*/
 @media screen and (min-width:700px) {
-    .form{ display: flex; flex-direction: column;  }
-    .h1{margin-left: 3em; display: block; width: 100%; } 
+    .section{ background-color: red;
+    }
+
+    .Divform{ display: flex; flex-direction: column; width: 40%;}
+
+    .h1{margin-left: 3em; display: block; width: 100%; font-size: 2em; }  
 }
+
+

@@ -1,15 +1,14 @@
-/*Section está em alteraçoes globais no app.css*/
-
-
-    /*color: #f0f8ff;
-    display: flex;
-    align-items: center;
-    width: 100%;
-   */
-
 .section{
     padding: 2.5rem 2.5rem 0  2.5rem;
     justify-content: space-evenly;
+
+    background-color: black;
+    color: #FFFFFF;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Divtext{
@@ -18,6 +17,7 @@
     flex-direction: column;
 
     font-size: 40px
+
 }
 
 .button{

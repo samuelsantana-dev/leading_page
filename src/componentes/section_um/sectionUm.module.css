@@ -1,22 +1,13 @@
-/*Section está em alteraçoes globais no app.css*/
-
-
-    /*color: #f0f8ff;
-    display: flex;
-    align-items: center;
-    width: 100%;
-   */
-
 .section{
     border-top: 1px solid #3F3F3F;
     border-bottom: 1px solid #3F3F3F;
     position: relative
+   
     /* background-repeat: no-repeat; */
     /* background-image: url("../../img/bg_bispos.svg");
     background-size: cover;
     background-repeat: no-repeat;
 
-    
     min-height: 600px; */
 }
 
@@ -24,6 +15,11 @@
 .Divtext{
     /* margin: 20px; */
     /* display: block; */
+
+    color: #FFFFFF
+    ;
+    width: 100%;
+
     position: absolute;
     top: 50%;
     left: 30%;

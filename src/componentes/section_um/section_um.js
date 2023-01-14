@@ -7,8 +7,9 @@ function sectionUm(){
     return(
         <section className={Style.section}>
                 <img src={Img} alt="Primeira imagem" className={Style.img} />
+                
                 <div  className={Style.Divtext} >
-
+                    
                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</span>
 
                     <input type='submit' value='Inscreva-se'  className={Style.button} />
