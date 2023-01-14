@@ -5,11 +5,13 @@ function Form(){
     return(
         <section className={Style.section}>
             
-           <span>
-            <h1  className={Style.h1}>
-                SEJA UM <br></br> VOLUNTARIO
-            </h1> 
-           </span>
+           <div>
+               
+                <h1  className={Style.h1}>
+                    SEJA UM <br></br> VOLUNTARIO
+                </h1>
+               
+           </div>
             
         <div  className={Style.Divform}>
             <form>

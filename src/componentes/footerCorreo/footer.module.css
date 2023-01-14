@@ -1,41 +1,35 @@
 
 .footer{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+  
 }
 
-.teste{
+.contatoImg{
+    padding-left: 2px;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
+    gap: 20% 20%;
 }
 
 .img{
     max-width: 100px;
     width: 100%;
-    margin: 1rem 1rem 1rem 2rem;
-
+    margin: 1rem 2rem 1rem 1rem;
 }
 
-/*Div icones*/
-.ulIcones{ 
-    margin: 10px;
-    list-style: none;
-    display: flex;
-    gap: 10px;
-}
+
 
 /*Icones sozinho*/
-.ul{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
 
 .links{
     display:flex;
+    justify-content: center;
     align-items: center;
+    gap: 20px 20px;
 }
 
 .upbutton{
@@ -45,6 +39,7 @@
 }
 
 
+/*Media Query para telas pequenas*/
 
 
 

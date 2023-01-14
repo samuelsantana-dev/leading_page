@@ -16,44 +16,41 @@ function Footer() {
 
         {/* <div className={Style.container}> */}
 
-            <div className={Style.teste}>
+            <div className={Style.contatoImg}>
 
-
-                <img src={LOGO} alt='Imagem footer' className={Style.img} />
+                 <div>
+                    <img src={LOGO} alt='Imagem footer' className={Style.img} />
+                </div>
 
                 <div>
                     <span>
                         Endereço
-
+                        <br></br>
                         Rua Xxxxx Xxxxxxx, XXX
                         CEP XXXXX-XXX, Brasília - DF
                     </span>
                 </div>
-
+                
                 <div>
                     <span>
                         Contato
-
+                        <br></br>
                         (XX) XXXX-XXXX
                         contato@arenaconference.com
                     </span>
                 </div>
-
-
             </div>
 
             <div className={Style.links}>
-            <FaInstagram className={Style.icones} />
-            <FaFacebook className={Style.icones} />
 
-            <a href={''} className={Style.upbutton}> <img src={arrow} alt='arrow' className={Style.arrow} /> Voltar para cima</a>
+                <FaInstagram className={Style.icones} />
+                <FaFacebook className={Style.icones} />
+
+                <a href={'#'} className={Style.upbutton}> <img src={arrow} alt='arrow' className={Style.arrow} /> </a>
             </div>
 
 
         {/* </div> */}
-
-
-
 
         </footer>
     )

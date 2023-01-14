@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-left: 3em;
     background-color: white;
     color: black;
@@ -61,10 +62,7 @@
 
 /*Media query vai ser para telas grandes*/
 @media screen and (min-width:700px) {
-    .section{ background-color: red;
-    }
-
-    .Divform{ display: flex; flex-direction: column; width: 40%;}
+    .Divform{ display: flex; flex-direction: column; width: 50%;}
 
     .h1{margin-left: 3em; display: block; width: 100%; font-size: 2em; }  
 }
