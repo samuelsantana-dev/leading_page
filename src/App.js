@@ -17,8 +17,6 @@ function App() {
         {/* <hr></hr> */}
         <Section_dois />
         {/* <hr></hr> */}
-        <Formulario />
-        {/* <hr></hr> */}
         <Sectiontres />
         {/* <hr></hr> */}
         <Footer />

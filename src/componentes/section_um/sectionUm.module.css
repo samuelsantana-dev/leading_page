@@ -1,8 +1,8 @@
 .section{
+    width: 100vw;
     border-top: 1px solid #3F3F3F;
     border-bottom: 1px solid #3F3F3F;
-    position: relative
-   
+    position: relative   
     /* background-repeat: no-repeat; */
     /* background-image: url("../../img/bg_bispos.svg");
     background-size: cover;
@@ -16,8 +16,7 @@
     /* margin: 20px; */
     /* display: block; */
 
-    color: #FFFFFF
-    ;
+    color: #FFFFFF;
     width: 100%;
 
     position: absolute;
@@ -29,7 +28,6 @@
 
     display: flex;
     flex-direction: column;
-
 }
 
 .button{
@@ -78,7 +76,6 @@
         font-size: 12px;
         height: 40%;
         padding: .8em;
-        
     }
 }
 
