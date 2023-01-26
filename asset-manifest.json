@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb66858e.css",
+    "main.js": "/static/js/main.3fb4da76.js",
+    "static/js/787.8982aff9.chunk.js": "/static/js/787.8982aff9.chunk.js",
+    "static/media/bg_bispos.svg": "/static/media/bg_bispos.1e85a0d691cb36ccbb1a72757ba85989.svg",
+    "static/media/tv_img.png": "/static/media/tv_img.0713826993c99a926911.png",
+    "static/media/20_anos_logo.png": "/static/media/20_anos_logo.cfef50821353bb73e036.png",
+    "static/media/arena_text.svg": "/static/media/arena_text.b197b04b711caa61e96f3b268c1552b1.svg",
+    "static/media/arrow.svg": "/static/media/arrow.33d3cba03b3fd1b0c5579afce0c0d8e5.svg",
+    "static/media/shine.svg": "/static/media/shine.8e07af842dba52be0d4fe33db60658e2.svg",
+    "index.html": "/index.html",
+    "static/media/arrow_up.svg": "/static/media/arrow_up.7db8a2ac306507cf2648508882c49a27.svg",
+    "main.bb66858e.css.map": "/static/css/main.bb66858e.css.map",
+    "main.3fb4da76.js.map": "/static/js/main.3fb4da76.js.map",
+    "787.8982aff9.chunk.js.map": "/static/js/787.8982aff9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb66858e.css",
+    "static/js/main.3fb4da76.js"
+  ]
+}
