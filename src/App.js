@@ -11,7 +11,7 @@ import Sectiontres from './componentes/section_tres/section_tres'
 function App() {
   return (
     <div className="App">
-        <Header />
+         <Header />
         {/* <hr></hr> */}
         <Section_um />
         {/* <hr></hr> */}
