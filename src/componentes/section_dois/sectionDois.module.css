@@ -1,8 +1,8 @@
 .section{
-    width: 100%;
+    /* width: 100%; */
     background-color: black;
     border-bottom: 1px solid #3F3F3F;
-    padding: 2.5rem;
+    padding: 5.5rem;
 
     display: flex;
     justify-content: space-evenly;

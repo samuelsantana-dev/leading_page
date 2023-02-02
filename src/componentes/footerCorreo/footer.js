@@ -12,46 +12,48 @@ import { FaFacebook, FaInstagram } from 'react-icons/fa'
 
 function Footer() {
     return (
-        <footer className={Style.footer}>
 
-        {/* <div className={Style.container}> */}
-        
-            <div className={Style.contatoImg}>
+        <div>
+            <footer className={Style.footer}>
+                <div className={Style.contatoImg}>
 
-                <div className={Style.divImg}>
-                    <img src={LOGO} alt='Imagem footer' className={Style.img} />
+                    <div className={Style.divImg}>
+                        <img src={LOGO} alt='Imagem footer' className={Style.img} />
+                    </div>
+                    <div>
+                        <span>
+                            Endereço
+                            <br></br>
+                            Rua Xxxxx Xxxxxxx, XXX
+                            CEP XXXXX-XXX, Brasília - DF
+                        </span>
+                    </div>
+
+                    <div>
+                        <span>
+                            Contato
+                            <br></br>
+                            (XX) XXXX-XXXX
+                            contato@arenaconference.com
+                        </span>
+                    </div>
                 </div>
-                <div>
-                    <span>
-                        Endereço
-                        <br></br>
-                        Rua Xxxxx Xxxxxxx, XXX
-                        CEP XXXXX-XXX, Brasília - DF
-                    </span>
+
+                <div className={Style.links}>
+
+                    <FaInstagram className={Style.icones} />
+                    <FaFacebook className={Style.icones} />
+
+                    <a href={'#'} className={Style.upbutton}> <img src={arrow} alt='arrow' className={Style.arrow} />  Volte ao topo </a>
                 </div>
-                
-                <div>
-                    <span>
-                        Contato
-                        <br></br>
-                        (XX) XXXX-XXXX
-                        contato@arenaconference.com
-                    </span>
-                </div>
+            </footer>
+
+            <div className={Style.rights}>
+                <span>
+                    2022 © Arena Conference. Todos os direitos reservados.
+                </span>
             </div>
-
-            <div className={Style.links}>
-
-                <FaInstagram className={Style.icones} />
-                <FaFacebook className={Style.icones} />
-
-                <a href={'#'} className={Style.upbutton}> <img src={arrow} alt='arrow' className={Style.arrow} /> </a>
-            </div>
-
-
-        {/* </div> */}
-
-        </footer>
+        </div>
     )
 }
 

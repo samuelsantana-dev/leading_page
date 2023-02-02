@@ -1,14 +1,16 @@
 .section{
-    width: 100vw;
+    /* width: 100vw; */
     border-top: 1px solid #3F3F3F;
     border-bottom: 1px solid #3F3F3F;
-    position: relative   
+    position: relative;   
     /* background-repeat: no-repeat; */
     /* background-image: url("../../img/bg_bispos.svg");
     background-size: cover;
     background-repeat: no-repeat;
 
     min-height: 600px; */
+    
+    display: flex
 }
 
 
@@ -56,7 +58,7 @@
 }
 
 .img{
-    /* width:max-content; */
+    width: 100%;
 }
 
 /*Telas pequenas*/

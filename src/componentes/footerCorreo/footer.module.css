@@ -3,7 +3,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 20vh;
+    padding: 1rem 3rem;
+    height: 15vh;
+    border-bottom: 1px solid #D9D9D9;
+    /* height: 20vh; */
 }
 
 .contatoImg{
@@ -14,12 +17,17 @@
 }
 
 .img{
-    max-width: 100px;
-    width: 100%;
-    margin: 1rem 2rem 1rem 1rem;
+    /* max-width: 100px; */
+    /* width: 100%; */
+    /* margin: 1rem 2rem 1rem 1rem; */
 }
 
 
+.icones{
+    width: 2em;
+    height: 2em;
+    margin: .5rem;
+}
 
 /*Icones sozinho*/
 
@@ -33,6 +41,12 @@
     font-size: 20px;
     display: flex;
     width: 30px;
+}
+
+.rights{
+    text-align: center;
+    padding: 3rem;
+    font-weight: bold;
 }
 
 
