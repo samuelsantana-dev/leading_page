@@ -1,0 +1,83 @@
+.section{
+    /* width: 100vw; */
+    border-top: 1px solid #3F3F3F;
+    border-bottom: 1px solid #3F3F3F;
+    position: relative;   
+    /* background-repeat: no-repeat; */
+    /* background-image: url("../../img/bg_bispos.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 600px; */
+    
+    display: flex
+}
+
+
+.Divtext{
+    /* margin: 20px; */
+    /* display: block; */
+
+    color: #FFFFFF;
+    width: 100%;
+
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    max-width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    margin-top: 1rem;
+
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    font-weight: bolder;
+    color: #FFFFFF;
+    padding: .4em;
+    cursor: pointer;
+
+    border-radius: 100px;
+    text-transform: uppercase;
+    width: 177px;
+    font-size: 14px;
+    height: 48px;
+
+    transition: .7s
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.img{
+    width: 100%;
+}
+
+/*Telas pequenas*/
+@media screen and (max-width:650px) {
+    .Divtext{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+    width: 50%;
+    }
+
+    .button{ border-radius: 100px;
+        text-transform: uppercase;
+        width: 40%;
+        font-size: 12px;
+        height: 40%;
+        padding: .8em;
+    }
+}
+

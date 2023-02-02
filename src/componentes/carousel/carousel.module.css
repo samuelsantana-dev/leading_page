@@ -1,0 +1,82 @@
+.container{
+    background: black;
+    color: white;
+
+    border-bottom: 1px solid #3F3F3F; 
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.story{
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+.icones{
+    width: 14px;
+    height: 14px;
+}
+
+.buttons{
+    display: flex;
+    align-items: flex-end
+}
+
+.button{
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 1em;
+    cursor: pointer;
+    margin-right: 1rem;
+
+    transition: .7s;
+}
+
+.button:hover{
+    background: white;
+    color: black;
+}
+
+.carousel{
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: thin;
+
+    padding-bottom: 2.5rem;
+}
+
+.card{
+    min-width: 420px;
+
+}
+
+.card_img{
+    width: 100%;
+}
+
+.card_text{
+    padding: 3rem;
+    border-right: 1px solid #3F3F3F;
+
+}
+
+.card_text p{
+    font-size: 40px;
+    text-align: start;
+
+    margin-bottom: 1rem
+}
+
+

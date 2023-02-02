@@ -1,0 +1,75 @@
+.section{
+    padding: 2.5rem 2.5rem 0  2.5rem;
+    justify-content: space-evenly;
+
+    background-color: black;
+    color: #FFFFFF;
+
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Divtext{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 40px
+
+}
+
+.button{
+    margin-top: 1rem;
+
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    font-weight: bolder;
+    color: #FFFFFF;
+    padding: .4em;
+    cursor: pointer;
+
+    border-radius: 100px;
+    text-transform: uppercase;
+    width: 177px;
+    font-size: 14px;
+    height: 48px;
+
+    transition: .7s
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    
+}
+/*
+.divImg{
+    padding: 1em;
+}
+
+width: 100px;*/
+
+.img{
+    width: 100%;
+    min-width: 180px;
+    max-width: 400px;
+}
+
+
+/*Telas pequenas*/
+@media screen and (max-width:650px) {
+    .Divtext{
+    font-size: 1.6em;
+    width: 50%;
+    }
+
+    .button{ border-radius: 100px;
+        text-transform: uppercase;
+        width: 60%;
+        font-size: 12px;
+        height: 60%;
+        padding: .8em;
+    }
+}

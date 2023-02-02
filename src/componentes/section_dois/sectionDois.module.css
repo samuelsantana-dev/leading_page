@@ -1,0 +1,66 @@
+.section{
+    /* width: 100%; */
+    background-color: black;
+    border-bottom: 1px solid #3F3F3F;
+    padding: 5.5rem;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Divtext{
+    padding: 10px;
+    display: block;
+
+    font-size: 14px;
+
+    max-width: 50%;
+
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+}
+
+.titleimgs{
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 1rem
+}
+
+.button{
+    background-color: black;
+    border: 1px solid aliceblue;
+    font-weight: bolder;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: .4em;
+    width: 100px;
+    cursor: pointer;
+}
+
+/*
+.img{
+    width: 100%;
+    min-width: 180px;
+    max-width: 400px;
+}*/
+
+.arrow{
+    width: 125px;
+    margin-right: 2rem
+}
+
+.arena{
+    width: 337px
+}
+
+.shine{
+    margin-top: 1rem;
+    width: 50.98px
+}
+
+
+
+

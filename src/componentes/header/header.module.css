@@ -1,0 +1,28 @@
+.header{
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(147, 196, 240);
+    padding: 1rem 3rem;
+}
+
+.div{
+    margin: auto;
+    margin-right: 2em;
+    align-items: center;
+}
+
+.text{
+    font-weight: bolder;
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+}
+
+.img{
+    border-radius: 10px;
+    min-width: 20px;
+    max-width: 100px;
+    width: 100%;
+    /* margin: 1rem 1rem 1rem 2rem; */
+}

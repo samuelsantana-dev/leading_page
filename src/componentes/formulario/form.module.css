@@ -1,0 +1,70 @@
+.section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3em;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Divform{
+    width: 100%;
+    margin: 2em;
+    display: flex;
+    padding: 3%;
+}
+
+/*Input Nome*/
+.nome{
+    width: 100%;
+    padding: .4em;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    border-radius: 10px; 
+    width: 100%;
+    display: block;
+}
+
+/*As duas div de input*/
+.divInput{
+    display: flex;
+    width: 100%;
+}
+
+/*Input*/
+.input{
+    width: 100%;
+    padding: .3em;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    border-radius: 10px;
+}
+
+/*Input inscreva-se*/
+.increverse{
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+
+    font-weight: bold;
+    text-align: left;
+
+    border-radius: 10px;
+    width: 100%;
+    padding: .3em;
+}
+
+/*Criando para tablets e telas grandes logo abaixo com media Query*/
+
+/*Media query vai ser para telas grandes*/
+@media screen and (min-width:700px) {
+    .Divform{ display: flex; flex-direction: column; width: 50%;}
+
+    .h1{margin-left: 3em; display: block; width: 100%; font-size: 2em; }  
+}
+
+
