@@ -38,6 +38,7 @@ function Carousel() {
                             Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </span>
                      </div>
                 </div>
+                
                 <div className={Style.card}>
                      <img src={Img_2} alt="Primeira imagem" className={Style.card_img} />
 
