@@ -20,6 +20,7 @@ function Footer() {
                     <div className={Style.divImg}>
                         <img src={LOGO} alt='Imagem footer' className={Style.img} />
                     </div>
+                
                     <div>
                         <span>
                             Endereço
@@ -37,6 +38,7 @@ function Footer() {
                             contato@arenaconference.com
                         </span>
                     </div>
+                    
                 </div>
 
                 <div className={Style.links}>
@@ -46,13 +48,15 @@ function Footer() {
 
                     <a href={'#'} className={Style.upbutton}> <img src={arrow} alt='arrow' className={Style.arrow} />  Volte ao topo </a>
                 </div>
-            </footer>
-
-            <div className={Style.rights}>
+                
+                <div className={Style.rights}>
                 <span>
                     2022 © Arena Conference. Todos os direitos reservados.
                 </span>
             </div>
+            </footer>
+
+         
         </div>
     )
 }
