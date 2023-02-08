@@ -13,15 +13,16 @@ function Carousel() {
                 <div className={Style.title}>
                     <span className={Style.story}> Nossa História </span>
 
-                    <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  </span>
+                    <span> A Arena Conference nasceu como uma extensão do Arena Jovem para ressignificar o feriado de Carnaval. Com uma variedade de preletores, bandas e cantores cristãos, apresentações artísticas e cinematográficas, a conferência reúne mais de 15 mil pessoas em Brasília e mais de 150 mil no Brasil todo.
+                        Diferentes temas são abordados anualmente e diante de tantas rotas recalculadas e destinos redefinidos, o tema de 2023 será 20 anos decidindo destinos! Acompanhe nossa retrospectiva:
+                    </span>
                 </div>
 
                 <div className={Style.buttons}>
                     <button className={Style.button}>
                         <BsChevronLeft className={Style.icones} />
                     </button>
-                    
+
                     <button className={Style.button}>
                         <BsChevronRight className={Style.icones} />
                     </button>
@@ -30,68 +31,109 @@ function Carousel() {
 
             <div className={Style.carousel}>
                 <div className={Style.card}>
-                     <img src={Img_1} alt="Primeira imagem" className={Style.card_img} />
+                    <img src={Img_1} alt="Primeira imagem" className={Style.card_img} />
 
-                     <div className={Style.card_text}>
-                        <p>2003</p>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </span>
-                     </div>
+                    <div className={Style.card_text}>
+                        <p>2010</p>
+                        <span>Por Amor</span>
+                    </div>
                 </div>
-                
-                <div className={Style.card}>
-                     <img src={Img_2} alt="Primeira imagem" className={Style.card_img} />
 
-                     <div className={Style.card_text}>
-                        <p>2006</p>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </span>
-                     </div>
+                <div className={Style.card}>
+                    <img src={Img_2} alt="Primeira imagem" className={Style.card_img} />
+
+                    <div className={Style.card_text}>
+                        <p>2011</p>
+                        <span>Somos Um</span>
+                    </div>
                 </div>
                 <div className={Style.card}>
-                     <img src={Img_1} alt="Primeira imagem" className={Style.card_img} />
+                    <img src={Img_1} alt="Primeira imagem" className={Style.card_img} />
 
-                     <div className={Style.card_text}>
-                        <p>2009</p>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </span>
-                     </div>
+                    <div className={Style.card_text}>
+                        <p>2012</p>
+                        <span>Visão, Missão, Destino</span>
+                    </div>
                 </div>
                 <div className={Style.card}>
-                     <img src={Img_2} alt="Primeira imagem" className={Style.card_img} />
+                    <img src={Img_2} alt="Primeira imagem" className={Style.card_img} />
 
-                     <div className={Style.card_text}>
+                    <div className={Style.card_text}>
                         <p>2013</p>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </span>
-                     </div>
+                        <span>Arena Jovem, Uma Década Decidindo Destinos</span>
+                    </div>
                 </div>
                 <div className={Style.card}>
-                     <img src={Img_1} alt="Primeira imagem" className={Style.card_img} />
+                    <img src={Img_1} alt="Primeira imagem" className={Style.card_img} />
 
-                     <div className={Style.card_text}>
+                    <div className={Style.card_text}>
+                        <p>2014</p>
+                        <span>Mutatis Mundi (Mudando o Mundo)</span>
+                    </div>
+                </div>
+                <div className={Style.card}>
+                    <img src={Img_2} alt="Primeira imagem" className={Style.card_img} />
+
+                    <div className={Style.card_text}>
+                        <p>2015</p>
+                        <span>Paixão e Devoção</span>
+                    </div>
+                </div>
+                <div className={Style.card}>
+                    <img src={Img_1} alt="Primeira imagem" className={Style.card_img} />
+
+                    <div className={Style.card_text}>
                         <p>2016</p>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </span>
-                     </div>
+                        <span>Somos o Povo da Cruz</span>
+                    </div>
                 </div>
                 <div className={Style.card}>
-                     <img src={Img_2} alt="Primeira imagem" className={Style.card_img} />
+                    <img src={Img_1} alt="Primeira imagem" className={Style.card_img} />
 
-                     <div className={Style.card_text}>
+                    <div className={Style.card_text}>
+                        <p>2017</p>
+                        <span>Nada a Temer</span>
+                    </div>
+                </div>
+                <div className={Style.card}>
+                    <img src={Img_1} alt="Primeira imagem" className={Style.card_img} />
+
+                    <div className={Style.card_text}>
+                        <p>2018</p>
+                        <span>Eu Nasci Pra Isso</span>
+                    </div>
+                </div>
+                <div className={Style.card}>
+                    <img src={Img_1} alt="Primeira imagem" className={Style.card_img} />
+
+                    <div className={Style.card_text}>
                         <p>2019</p>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </span>
-                     </div>
+                        <span>Invencível</span>
+                    </div>
                 </div>
                 <div className={Style.card}>
-                     <img src={Img_1} alt="Primeira imagem" className={Style.card_img} />
+                    <img src={Img_1} alt="Primeira imagem" className={Style.card_img} />
 
-                     <div className={Style.card_text}>
-                        <p>2023</p>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </span>
-                     </div>
+                    <div className={Style.card_text}>
+                        <p>2020</p>
+                        <span>Nenhum passo atrás</span>
+                    </div>
+                </div>
+                <div className={Style.card}>
+                    <img src={Img_1} alt="Primeira imagem" className={Style.card_img} />
+
+                    <div className={Style.card_text}>
+                        <p>2021</p>
+                        <span>Sempre foi Deus</span>
+                    </div>
+                </div>
+                <div className={Style.card}>
+                    <img src={Img_1} alt="Primeira imagem" className={Style.card_img} />
+
+                    <div className={Style.card_text}>
+                        <p>2022</p>
+                        <span>No Limits</span>
+                    </div>
                 </div>
             </div>
         </section>

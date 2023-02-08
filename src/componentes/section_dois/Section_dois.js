@@ -19,16 +19,12 @@ function Section_dois() {
                 </div>
 
                 <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                O Arena Jovem é mais do que um culto de jovens. É uma revolução que respira e exala o evangelho em cada uma de suas reuniões, não limitando-se às quatro paredes da igreja. O Arena é a chama que queima e acende o coração de todos que encontra no caminho.
+	O movimento, que já tem feito a diferença na juventude brasileira (e de diversos outros países!) há exatos 20 anos, é fruto da oração incessável dos bispos da igreja Sara Nossa Terra por uma geração de jovens transformados e avivados. 
+O evento, Arena Conference, tem caráter evangelístico e oferece a crianças, jovens e adultos a oportunidade de passar 3 dias profundamente imersos em verdadeiras experiências com Deus. Para acompanhar de perto os conteúdos exclusivos, as programações confirmadas e todas as novidades, acompanhe o instagram @arenaconference
 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                 </span>
 
-                <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                </span>
 
                 <img src={shine} alt="Primeira imagem" className={Style.shine} />
             </div>
