@@ -6,7 +6,7 @@ import Button from '../formulario/button'
 function sectionUm() {
     return (
         <section className={Style.section}>
-            <img src={Img} alt="Primeira imagem" className={Style.img} />
+            <img src={Img} alt="Primeira imagem" className={Style.img} /> 
 
             <div className={Style.Divtext} >
 
@@ -21,12 +21,5 @@ function sectionUm() {
         </section>
     )
 }
-/**
- *  <p>
-                <Button className={Style.botao} />
-            </p>
 
-                    <div  className={Style.div} > 
-                        </div>
- */
 export default sectionUm
