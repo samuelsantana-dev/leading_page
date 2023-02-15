@@ -49,12 +49,13 @@ function Footer() {
                     <a href={'#'} className={Style.upbutton}> <img src={arrow} alt='arrow' className={Style.arrow} />  Volte ao topo </a>
                 </div>
                 
-                <div className={Style.rights}>
+            </footer>
+
+            <div className={Style.rights}>
                 <span>
                     2022 © Arena Conference. Todos os direitos reservados.
                 </span>
             </div>
-            </footer>
 
          
         </div>
