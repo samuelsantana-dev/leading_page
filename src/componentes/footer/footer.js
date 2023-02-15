@@ -46,8 +46,7 @@ function Footer() {
                      
                   
                     <a href={'https://www.instagram.com/arenaconference/'} > <FaInstagram className={Style.icones} /> </a>
-                    <a href={'https://www.facebook.com/arenaconference'} >  <FaFacebook className={Style.icones} />
- </a>
+                    <a href={'https://www.facebook.com/arenaconference'} >  <FaFacebook className={Style.icones} /> </a>
 
                     <a href={'#'} className={Style.upbutton}> <img src={arrow} alt='arrow' className={Style.arrow} />  Volte ao topo </a>
                 </div>
