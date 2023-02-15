@@ -6,7 +6,11 @@ import Img_2 from '../../img/img_2.png'
 
 
 
+
+    
+
 function Carousel() {
+
     return (
         <section className={Style.container}>
             <div className={Style.header}>
@@ -19,17 +23,21 @@ function Carousel() {
                 </div>
 
                 <div className={Style.buttons}>
-                    <button className={Style.button}>
+                    <button className={Style.button} onClick={()=>{
+                            document.getElementById('carouselContainer').scrollLeft -= 420;
+                    } }>
                         <BsChevronLeft className={Style.icones} />
                     </button>
 
-                    <button className={Style.button}>
+                    <button className={Style.button} onClick={()=>{
+                       document.getElementById('carouselContainer').scrollLeft += 420;
+                    } }>
                         <BsChevronRight className={Style.icones} />
                     </button>
                 </div>
             </div>
 
-            <div className={Style.carousel}>
+            <div id='carouselContainer'  className={Style.carousel}>
                 <div className={Style.card}>
                     <img src={Img_1} alt="Primeira imagem" className={Style.card_img} />
 

@@ -55,6 +55,7 @@
     scrollbar-width: thin;
 
     padding-bottom: 2.5rem;
+    transition: all 0.3s;
 }
 
 .card{
